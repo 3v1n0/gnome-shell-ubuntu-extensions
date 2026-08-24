@@ -16,6 +16,7 @@ install_subdir(extension_path,
   exclude_files: ['meson.build'],
   exclude_directories: [
     'dev-lab',
+    'dev-lab-gpu',
     'test',
   ],
 )
